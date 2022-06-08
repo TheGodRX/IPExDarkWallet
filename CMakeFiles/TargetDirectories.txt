@@ -1,0 +1,6 @@
+/home/codercoinz/guiwallet/cryptonotewallet/CMakeFiles/rebuild_cache.dir
+/home/codercoinz/guiwallet/cryptonotewallet/CMakeFiles/edit_cache.dir
+/home/codercoinz/guiwallet/cryptonotewallet/CMakeFiles/IPExDark.dir
+/home/codercoinz/guiwallet/cryptonotewallet/CMakeFiles/cryptonote.dir
+/home/codercoinz/guiwallet/cryptonotewallet/CMakeFiles/IPExDark_autogen.dir
+/home/codercoinz/guiwallet/cryptonotewallet/CMakeFiles/cryptonote_autogen.dir

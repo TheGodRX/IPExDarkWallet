@@ -1,0 +1,6 @@
+[submodule "IPExDark"]
+	path = IPExDark
+	url = https://github.com/codercoins/IPExDark.git
+[submodule "cryptonote"]
+	path = cryptonote
+	url = https://github.com/codercoins/IPExDark.git

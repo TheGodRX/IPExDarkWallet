@@ -19,11 +19,11 @@ include_directories(${CMAKE_BINARY_DIR}
 find_package(Qt5Gui REQUIRED)
 find_package(Qt5Widgets REQUIRED)
 
-set(Boost_USE_STATIC_LIBS ON)
+set(Boost_USE_STATIC_LIBS OFF)
 if(WIN32)
   set(Boost_USE_STATIC_RUNTIME OFF)
 else(WIN32)
-  set(Boost_USE_STATIC_RUNTIME ON)
+  set(Boost_USE_STATIC_RUNTIME OFF)
 endif(WIN32)
 
 find_package(Boost 1.55 REQUIRED COMPONENTS date_time filesystem program_options regex serialization system thread chrono)
@@ -33,7 +33,7 @@ endif ()
 
 include_directories(${Boost_INCLUDE_DIRS})
 link_directories(${Boost_LIBRARY_DIRS})
-
+set  (Boost_NO_BOOST_CMAKE)
 set(VERSION "")
 configure_file("cryptonote/src/version.h.in" "version.h")
 configure_file("src/CryptoNoteWalletConfig.h.in" "CryptoNoteWalletConfig.h")
