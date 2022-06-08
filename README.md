@@ -8,9 +8,8 @@ git clone https://github.com/codercoins/IPExDarkWallet.git
 cd IPExDarkWallet/build
 ```
 
-**2. USEAGE `CryptoNoteWallet.cmake`**
+**2. USEAGE `Run Wallet`**
  
 ```
 ./IPExDark
-
 ```
